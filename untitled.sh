@@ -10,7 +10,7 @@ makepkg -si &&
 cd .. &&
 git clone https://aur.archlinux.org/ttf-iosevka &&
 cd ttf-iosevka &&
-makepkg-si &&
+makepkg -si &&
 cd .. &&
 git clone https://aur.archlinux.org/lightdm-webkit2-theme-glorious &&
 cd lightdm-webkit2-theme-glorious &&
