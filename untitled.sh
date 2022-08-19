@@ -8,10 +8,6 @@ git clone https://aur.archlinux.org/cava &&
 cd cava &&
 makepkg -si &&
 cd .. &&
-git clone https://aur.archlinux.org/ttf-iosevka &&
-cd ttf-iosevka &&
-makepkg -si &&
-cd .. &&
 git clone https://aur.archlinux.org/lightdm-webkit2-theme-glorious &&
 cd lightdm-webkit2-theme-glorious &&
 makepkg -si &&
