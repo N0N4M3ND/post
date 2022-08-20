@@ -1,9 +1,8 @@
-git clone https://github.com/N0N4M3ND/dotfiles-dark &&
-mv dotfiles-dark/.bashrc ~/ &&
-mv dotfiles-dark/.config ~/ &&
+git clone https://github.com/N0N4M3ND/dotfiles &&
+mv dotfiles/.config ~/ &&
 chmod +x .config/bspwm/bspwmrc &&
-git clone https://github.com/N0N4M3ND/wallpapers-dark &&
-sudo mv wallpapers-dark /usr/share/backgrounds &&
+git clone https://github.com/N0N4M3ND/wallpapers &&
+sudo mv wallpapers /usr/share/backgrounds &&
 git clone https://aur.archlinux.org/cava &&
 cd cava &&
 makepkg -si &&
