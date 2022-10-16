@@ -2,11 +2,9 @@ git clone https://aur.archlinux.org/catppuccin-gtk-theme-mocha &&
 cd catppuccin-gtk-theme-mocha &&
 makepkg -si &&
 cd .. &&
-git clone https://aur.archlinux.org/lightdm-webkit2-theme-glorious &&
-cd lightdm-webkit2-theme-glorious &&
+git clone https://aur.archlinux.org/ly &&
+cd ly &&
 makepkg -si &&
-sudo sed -i 's/debug_mode          = false/debug_mode          = true/g' /etc/lightdm/lightdm-webkit2-greeter.conf &&
-sudo sed -i 's/webkit_theme        = antergos/webkit_theme        = glorious/g' /etc/lightdm/lightdm-webkit2-greeter.conf &&
 cd .. &&
 git clone https://github.com/N0N4M3ND/dotfiles &&
 mv dotfiles/.config ~/ &&
