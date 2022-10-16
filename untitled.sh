@@ -1,7 +1,3 @@
-git clone https://aur.archlinux.org/catppuccin-gtk-theme-mocha &&
-cd catppuccin-gtk-theme-mocha &&
-makepkg -si &&
-cd .. &&
 git clone https://aur.archlinux.org/ly &&
 cd ly &&
 makepkg -si &&
