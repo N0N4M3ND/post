@@ -6,5 +6,5 @@ git clone https://github.com/N0N4M3ND/dotfiles &&
 mv dotfiles/.config ~/ &&
 mv dotfiles/.wallpaper ~/ &&
 chmod +x .config/bspwm/bspwmrc &&
-mv dotfiles/lightdm-gtk-greeter.conf/ /etc/lightdm/lightdm-gtk-greeter.cont
+mv dotfiles/lightdm-gtk-greeter.conf/ /etc/lightdm/lightdm-gtk-greeter.conf
 rm -rf *
