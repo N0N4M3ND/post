@@ -4,6 +4,7 @@ cd ttf-iosevka &&
 makepkg -si &&
 cd .. &&
 git clone https://github.com/N0N4M3ND/dotfiles &&
-mv dotfiles/.* ~/ &&
+mv dotfiles/.bash_profile ~ &&
+mv dotfiles/.config ~ &&
 chmod +x .config/bspwm/bspwmrc &&
 rm -rf *
