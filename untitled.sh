@@ -3,6 +3,6 @@ cd ttf-iosevka &&
 makepkg -si &&
 cd .. &&
 git clone https://github.com/N0N4M3ND/dotfiles &&
-mv dotfiles/.config ~ &&
+mv dotfiles/* ~ &&
 chmod +x .config/bspwm/bspwmrc &&
 rm -rf *
