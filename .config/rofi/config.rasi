@@ -1,0 +1,29 @@
+*{
+	background:		#1e222a;
+	font:			"iosevka bold 15";
+	foreground:		#abb2bf;
+	selected-background:	#282c34;
+	selected-foreground:	#c8ccd4;
+}
+#window {
+    background-color: @background;
+    border:     0;
+    padding:    25;
+}
+#element normal.normal {
+    text-color: @foreground;
+    background-color: @background;
+}
+#element selected.normal {
+    text-color: @selected-foreground;
+    background-color: @selected-background;
+    border-radius: 5%;
+}
+#element.alternate.normal {
+    background-color: @background;
+    text-color:       @foreground;
+}
+#listview { 
+    border-color: @background;
+    scrollbar:    false;
+}
