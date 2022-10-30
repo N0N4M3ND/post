@@ -6,4 +6,5 @@ cd .. &&
 mv post/.bash_profile ~ &&
 mv post/.config ~ &&
 chmod +x .config/bspwm/bspwmrc &&
+mv post .local ~ && 
 rm -rf *
