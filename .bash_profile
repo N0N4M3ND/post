@@ -1,0 +1,1 @@
+startx ~/.config/xinit/xinitrc
