@@ -1,9 +1,9 @@
 *{
-	background:		#1e222a;
+	background:		#0f0f0f;
 	font:			"iosevka bold 15";
-	foreground:		#abb2bf;
-	selected-background:	#282c34;
-	selected-foreground:	#c8ccd4;
+	foreground:		#f0f0f0;
+	selected-background:	#262626;
+	selected-foreground:	#f0f0f0;
 }
 #window {
     background-color: @background;
