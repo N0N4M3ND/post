@@ -3,8 +3,8 @@ super + Return
 	alacritty
 
 # program launcher
-super + @space
-	rofi -show drun -show-icons
+super + space
+	rofi -show drun
 
 # make sxhkd reload its configuration files:
 super + Escape
