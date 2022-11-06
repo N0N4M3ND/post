@@ -22,11 +22,11 @@ super + shift + q
 super + {t,s,f}
 	bspc node -t {tiled,floating,fullscreen}
 
-; focus window
+; move
 super + shift + {Left,Down,Up,Right}
 	bspc node -s {west,south,north,east}
 	
-; move window 
+; focus
 super + {Left,Down,Up,Right}
 	bspc node -f {west,south,north,east}
 	
@@ -38,14 +38,14 @@ super + shift + {1-9,0}
 super + {1-9,0}
 	bspc desktop -f {1-9,0}
 
-; contract a window by moving one of its side inward
+; contract
 super + alt + ctrl + {Left,Down,Up,Right}
 	bspc node -z {left -10 0,bottom 0 10,top 0 -10,right 10 0}
 
-; expand a window by moving one of its side outward
+; expand
 super + alt + {Left,Down,Up,Right}
 	bspc node -z {right -10 0,top 0 10,bottom 0 -10,left 10 0}
 
-; move a floating window
+; move floating
 super + {Left,Down,Up,Right}
 	bspc node -v {-10 0,0 10,0 -10,10 0}
