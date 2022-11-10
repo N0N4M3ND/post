@@ -9,24 +9,24 @@
 	width: 25%;
 }
 #window {
-    background-color: @background;
-    border: 0;
-    padding: 25;
+	background-color: @background;
+	border: 0;
+	padding: 25;
 }
 #element normal.normal {
-    text-color: @foreground;
-    background-color: @background;
+	text-color: @foreground;
+	background-color: @background;
 }
 #element selected.normal {
-    text-color: @selected-foreground;
-    background-color: @selected-background;
-    border-radius: 5%;
+	text-color: @selected-foreground;
+	background-color: @selected-background;
+	border-radius: 5%;
 }
 #element.alternate.normal {
-    background-color: @background;
-    text-color: @foreground;
+	background-color: @background;
+	text-color: @foreground;
 }
 #listview { 
-    border-color: @background;
-    scrollbar: false;
+	border-color: @background;
+	scrollbar: false;
 }
