@@ -1,14 +1,18 @@
 *{
-	background:		#0f0f0f;
-	font:			"iosevka bold 15";
-	foreground:		#f0f0f0;
-	selected-background:	#262626;
-	selected-foreground:	#f0f0f0;
+
+	background: #0f0f0f;
+	font: "iosevka bold 15";
+	foreground: #f0f0f0;
+	lines: 15;
+	selected-background: #262626;
+	selected-foreground: #f0f0f0;
+	spacing: 5;
+	width: 25%;
 }
 #window {
     background-color: @background;
-    border:     0;
-    padding:    25;
+    border: 0;
+    padding: 25;
 }
 #element normal.normal {
     text-color: @foreground;
@@ -21,9 +25,9 @@
 }
 #element.alternate.normal {
     background-color: @background;
-    text-color:       @foreground;
+    text-color: @foreground;
 }
 #listview { 
     border-color: @background;
-    scrollbar:    false;
+    scrollbar: false;
 }
