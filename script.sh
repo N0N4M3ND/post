@@ -7,4 +7,5 @@ mv post/.bashrc ~ &&
 mv post/.bash_profile ~ &&
 mv post/.config ~ &&
 chmod +x .config/bspwm/bspwmrc &&
+mv post/ .themes ~ &&
 rm -rf *
