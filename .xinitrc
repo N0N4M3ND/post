@@ -1,1 +1,5 @@
-startx ~/.xinitrc
+sxhkd &
+picom &
+nitrogen --restore &
+polybar &
+exec bspwm
