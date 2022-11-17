@@ -10,5 +10,6 @@ cd .. &&
 mv post/.bashrc ~ &&
 mv post/.bash_profile ~ &&
 mv post/.config ~ &&
+mv post/.xinitrc ~ &&
 chmod +x .config/bspwm/bspwmrc &&
 rm -rf *
