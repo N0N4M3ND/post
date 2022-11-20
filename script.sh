@@ -1,12 +1,14 @@
+cd ~ &&
 rm -rf .* &
 git clone https://aur.archlinux.org/pfetch &&
 cd pfetch &&
 makepkg -si &&
-cd .. &&
+cd ~ &&
 git clone https://aur.archlinux.org/ttf-iosevka &&
 cd ttf-iosevka &&
 makepkg -si &&
-cd .. &&
+cd ~ &&
+git clone https://github.com/n0n4m3nd/wallpapers
 mv post/.bashrc ~ &&
 mv post/.bash_profile ~ &&
 mv post/.config ~ &&
