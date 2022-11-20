@@ -1,5 +1,4 @@
 cd ~ &&
-rm -rf * &
 rm -rf .* &
 git clone https://aur.archlinux.org/pfetch &&
 git clone https://aur.archlinux.org/ttf-iosevka &&
@@ -14,4 +13,5 @@ mv post/.bashrc ~ &&
 mv post/.bash_profile ~ &&
 mv post/.config ~ &&
 mv post/.xinitrc ~ &&
+rm -rf * &&
 chmod +x .config/bspwm/bspwmrc
