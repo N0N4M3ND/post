@@ -4,9 +4,9 @@
 super + b
 	firefox
 
-# launch ?
-super + <key>
-	<app>
+# launch obs
+super + o
+	obs
 
 # launch ?
 super + <key>
@@ -22,9 +22,9 @@ super + <key>
 
 # controls
 
-# close
-super + q
-	bspc node -c
+# close/kill
+super + {_,shift + }q
+        bspc node -{c,k}
 
 # contract
 super + alt + {Left,Down,Up,Right}
@@ -34,27 +34,15 @@ super + alt + {Left,Down,Up,Right}
 super + alt + ctrl + {Left,Down,Up,Right}
 	bspc node -z {right -10 0,top 0 10,bottom 0 -10,left 10 0}
 
-# focus
+# focus/move window
 super + {Left,Down,Up,Right}
 	bspc node -f {west,south,north,east}
 
-# focus workspace
-super + shift + {1-9,0}
-	bspc node -d {1-9,0}
+# focus workspace/move to workspace
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} {1-9,0}
 
-# kill
-super + shift + q
-	bspc node -k
-
-# move
-super + shift + {Left,Down,Up,Right}
-	bspc node -s {west,south,north,east}
-
-# move focused window to workspace
-super + {1-9,0}
-	bspc desktop -f {1-9,0}
-
-# quit
+# quit bspwm
 super + alt + q
 	bspc quit
 
