@@ -8,6 +8,11 @@
 	spacing: 5;
 	width: 25%;
 }
+
+configuration{
+	icon-theme: "Papirus";
+	show-icons: true;
+}
 #window {
 	background-color: @background;
 	border: 0;
