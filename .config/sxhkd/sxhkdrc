@@ -1,23 +1,23 @@
 # applications
 
 # launch firefox
-super + b
+ctrl + b
 	firefox
 
 # launch ?
-super + <key>
+ctrl + <key>
 	<app>
 
 # launch ?
-super + <key>
+ctrl + <key>
 	<app>
 
 # launch ?
-super + <key>
+ctrl + <key>
 	<app>
 
 # launch ?
-super + <key>
+ctrl + <key>
 	<app>
 
 # controls
