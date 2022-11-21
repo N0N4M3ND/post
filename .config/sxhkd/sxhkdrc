@@ -1,51 +1,67 @@
-; close
-super + q
+# applications
+
+# launch firefox
+super + b
+	firefox
+
+# launch ?
+super + <key>
+	<app>
+
+# launch ?
+super + <key>
+	<app>
+
+# launch ?
+super + <key>
+	<app>
+
+# launch ?
+super + <key>
+	<app>
+
+# controls
+
+# close
+ctrl + q
 	bspc node -c
-	
-; contract
+
+# contract
 super + alt + {Left,Down,Up,Right}
 	bspc node -z {left -10 0,bottom 0 10,top 0 -10,right 10 0}
 
-; expand
-super + alt + ctrl + {Left,Down,Up,Right}
+# expand
+ctrl + alt + {Left,Down,Up,Right}
 	bspc node -z {right -10 0,top 0 10,bottom 0 -10,left 10 0}
-	
-; focus
-super + {Left,Down,Up,Right}
+
+# focus
+ctrl + {Left,Down,Up,Right}
 	bspc node -f {west,south,north,east}
 
-; focus workspace
-super + shift + {1-9,0}
+# focus workspace
+ctrl + shift + {1-9,0}
 	bspc node -d {1-9,0}
 
-; kill
-super + shift + q
+# kill
+ctrl + shift + q
 	bspc node -k
 
-; launcher
-super + space
-	rofi -show drun -show-icons -icon-theme Papirus
-
-; move
-super + shift + {Left,Down,Up,Right}
+# move
+ctrl + shift + {Left,Down,Up,Right}
 	bspc node -s {west,south,north,east}
 
-; move floating
-super + {Left,Down,Up,Right}
-	bspc node -v {-10 0,0 10,0 -10,10 0}
-	
-; move focused window to workspace
-super + {1-9,0}
+# move focused window to workspace
+ctrl + {1-9,0}
 	bspc desktop -f {1-9,0}
 
-; quit
-super + alt + q
+# quit
+ctrl + alt + q
 	bspc quit
 
-; switch window profile
-super + {t,s,f}
+# switch window profile
+ctrl + {t,s,f}
 	bspc node -t {tiled,floating,fullscreen}
 
-; terminal
+# terminal
 super + Return
 	alacritty
