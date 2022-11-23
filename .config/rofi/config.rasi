@@ -2,11 +2,11 @@
 	background: #000000;
 	font: "iosevka bold 15";
 	foreground: #d1d1d1;
-	lines: 15;
+	lines: 6;
 	selected-background: #0a0a0a;
 	selected-foreground: #d1d1d1;
 	spacing: 5;
-	width: 25%;
+	width: 20%;
 }
 
 configuration{
