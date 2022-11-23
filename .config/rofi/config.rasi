@@ -2,7 +2,7 @@
 	background: #000000;
 	font: "iosevka bold 15";
 	foreground: #d1d1d1;
-	lines: 6;
+	lines: 8;
 	selected-background: #0a0a0a;
 	selected-foreground: #d1d1d1;
 	spacing: 5;
