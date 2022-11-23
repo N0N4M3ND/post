@@ -1,12 +1,8 @@
 # applications
 
-# launch firefox
-super + b
-	firefox
-
-# launch obs
-super + o
-	obs
+# launch rofi
+super + shift
+	rofi -show drun
 
 # launch ?
 super + <key>
@@ -14,12 +10,7 @@ super + <key>
 
 # launch ?
 super + <key>
-	<app>
-
-# launch ?
-super + <key>
-	<app>
-
+	<app
 # controls
 
 # close/kill window
