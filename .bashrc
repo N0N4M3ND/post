@@ -1,5 +1,5 @@
 PS1=" \W $ "
-pfetch
+# pfetch
 
 
 alias audio=pulsemixer
