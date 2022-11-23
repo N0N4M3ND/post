@@ -1,7 +1,7 @@
 # applications
 
 # launch rofi
-super + shift
+super + space
 	rofi -show drun
 
 # launch ?
