@@ -1,7 +1,3 @@
-cursor:
-  style:
-    shape: beam
-
 colors:
   # Default colors
   primary:
