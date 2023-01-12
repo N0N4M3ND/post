@@ -3,7 +3,7 @@
 	font: "iosevka bold 15";
 	foreground: #a9b1d6;
 	lines: 7;
-	selected-background: #1a1b26;
+	selected-background: #0F0F0F;
 	selected-foreground: #a9b1d6;
 	spacing: 5;
 	width: 20%;
@@ -25,7 +25,7 @@ configuration{
 #element selected.normal {
 	text-color: @selected-foreground;
 	background-color: @selected-background;
-	border-radius: 5%;
+	border-radius: 10%;
 }
 #element.alternate.normal {
 	background-color: @background;
