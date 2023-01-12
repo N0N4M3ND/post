@@ -1,10 +1,10 @@
 *{
 	background: #000000;
 	font: "iosevka bold 15";
-	foreground: #d1d1d1;
+	foreground: #a9b1d6;
 	lines: 7;
-	selected-background: #0a0a0a;
-	selected-foreground: #d1d1d1;
+	selected-background: #1a1b26;
+	selected-foreground: #a9b1d6;
 	spacing: 5;
 	width: 20%;
 }
